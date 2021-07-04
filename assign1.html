@@ -29,7 +29,7 @@
                   and an Avid Photographer
               </p>
               <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <button type="button" class="btn btn-dark btn-lg px-4 gap-3">Contact Me</button>
+                <a class="btn btn-primary btn-dark btn-lg px-4 gap-3" href="#sendform">Contact Me</a>
               </div>
             </div>
           </div>
@@ -101,8 +101,8 @@
         </div>
         <div class="col-12 col-md-6 mx-md-auto">
           <div class="h-100 p-5 bg-light border rounded-3">
-            <h2>Add borders</h2>
-            <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+            <h2>LinkedIn</h2>
+            <a href="https://www.linkedin.com/in/afeef-ahmadullah/">https://www.linkedin.com/in/afeef-ahmadullah/</a>
           </div>
         </div>
       </div>
@@ -148,6 +148,39 @@
                 </div>
               </div>
               <hr style="margin: 80px 0px 80px 0px;"/>
+        </div>
+
+        <!--Form-->
+        <div id="sendform" >
+          <!--
+        <form action="https://formspree.io/f/xoqylypv" method="POST" >
+          <div class="col md-6 ">
+            <label class="form-label" style="margin-left: 50px;">Email address</label>
+            <input type="email" name="_replyto" class="form-control" id="exampleFormControlInput1" style="width: 50%; margin-left: 50px;">
+          </div>
+          <div class= "col md-6 ">
+            <label for="exampleFormControlTextarea1" class="form-label" style="margin-left: 50px;">Your Message</label>
+            <textarea class="form-control" name="message" rows="3" style="width: 50%; margin-left: 50px;"></textarea>
+          </div>
+          <button type="submit" style=" margin-top: 10px; margin-left: 50px;">Send</button>
+          </form>
+        -->
+          
+            <form action="https://formspree.io/f/xoqylypv" method="POST" >
+              <div class="col md-6 ">
+              <label class="form-label text-center my-auto" style="margin-left: 50px;" >
+              Email Address
+              <input type="email" name="_replyto">
+            </label>
+          </div>
+          <div class="col md-6 "></div>
+            <label class="form-label text-center my-auto" style="margin-left: 50px;">
+              Your message:
+              <textarea name="message" rows="3" style="width: 50%; margin-left: 50px;"></textarea>
+            </label>
+          </div>
+            <button type="submit" style=" margin-top: 10px; margin-left: 50px;">Send</button>
+            </form>
         </div>
 
         <footer class="container">
