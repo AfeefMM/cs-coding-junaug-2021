@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p:nth-child(2) {
+                color: blue;
+                font-size: 25px;
+                position: relative;
+            }
+            p{
+                color: red;
+            }
+            .orange {
+                color: orange;
+            }
+            p.brown{
+                color:brown;
+            }
+
+        </style>
+
+    </head>
+    
+    <body><!--<body class="orange"> would make all orange
+         -->
+        <p>line 1</p><!-- should be blue-->
+        <p>line 2</p><!-- should be aqua-->
+        <p class="orange">line 3</p>
+        <p style="color: green;">green stuff</p>
+        <div class="brown">text</div><!--this would be black as brown is specific to p elements-->
+        <div style="width: 200px; height:auto; font-size:medium; border: 10px;"></div>
+    </body>
+
+</html>

@@ -1,0 +1,32 @@
+CSS main stuff:
+
+-Spacing: 
+    --Margin: pushes the elements - external spacing
+        bootstrap way: 
+        .m-0: no margin
+        .m-1: 1 margin
+        .mt-1: top margin
+        .mb-1:bottom margin
+        .ms-1: left margin
+        .me-1: end margin 
+    --padding: - internal spacing - clock wise (up,right,down.left)
+
+- Display:
+    block
+    inline
+    inline-block
+    table
+    grid
+    flex
+
+    bootstrap:
+        .d-flex
+        .justify-content-between
+        .justify-content-around
+
+        .flex-lg-row    //set row wise for large screen
+        .flew-sm-column // set column wise for small screen
+
+-Breakpoints: to define what happens at different sizes
+
+
